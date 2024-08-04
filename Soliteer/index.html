@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="t">Soliteer Cosmetics</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="icon" type="image/x-icon" href="img/logo1.jpg">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css" integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/logo.jfif"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              COSMETICS
+            </a>
+            <div class="dropdown-menu">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3">
+                  <ul>
+                    <li><a href="makeup.html">MAKEUP</a></li>
+
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <ul>
+                    <li><a href="skincare.html">SKINCARE</a></li>
+                   
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <ul>
+                    <li><a href="haircare.html">HAIRCARE</a></li>
+                 
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <ul>
+                    <li><a href="kits-sets.html">KITS & SETS</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+          </li>
+        </ul>
+        <div class="buttons d-flex">
+          <form class=" search-button" role="search">
+            <input class="search" type="text" name="search" placeholder=" search...">  
+            <button type="submit"><i class="fas fa-search"></i></button>
+            <a href="contact.html"><i class="fa-solid fa-phone"></i></a>
+            <a href="shop.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  
+
+
+    <!--<div class="header">
+        <div class="container">
+            <div class="row" style="position: relative;">
+            
+              <div class="dropdown5">
+                <button onclick="myFunction()" class="dropbtn5"><i class="fa-solid fa-bars"></i></button>
+                
+              </div>
+
+                <div class="col-lg-2 col-md-2 col-6">
+                    <a href="index.html">
+                        <img class="logo" src="img/logo.jfif">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-5 col-6">
+                        <div class="dropdown">
+                            <button class="dropbtn">MAKEUP</button>
+                            <div class="dropdown-content">
+                              <div class="row align-items-start">
+                                <div class="col-md-4">
+                                  <a href="eng/makeup/face" title="face" class="all">FACE</a>
+                                  <a href="#makeup/foundation">Foundation</a>
+                                  <a href="makeup/concealer">Concealer</a>
+                                  <a href="makeup/contour">Contour</a>
+                                  <a href="makeup/bronzer">Bronzer</a> 
+                                  <a href="makeup/blush">Blush</a>
+                                  <a href="makeup/settingpowder">Setting powder</a>
+                                  <a href="makeup/highlighter">Highlighter</a>
+                                  <a href="makeup/palettes">Palettes</a>
+                                  <a href="makeup/primer">Primer</a> 
+                                  <a href="makeup/settingspray">Setting spray</a> 
+                                </div>
+                                <div class="col-md-4">
+                                  <a href="eng/makeup/eyes" title="eyes" class="all">EYES</a>
+                                  <a href="makeup/mascara">Mascara</a> 
+                                  <a href="makeup/eyeliner">Eyeliner</a> 
+                                  <a href="makeup/brows">Brows</a> 
+                                  <a href="makeup/eyeshadows">Eyeshadows</a>
+                                </div>
+                                <div class="col-md-4">
+                                  <a href="eng/makeup/lips" title="lips" class="all">LIPS</a>
+                                  <a href="makeup/lippencils">Lip pencils</a> 
+                                  <a href="makeup/lipstick">Lip stick</a> 
+                                  <a href="makeup/liquidlipstick">Liquid lipstick</a> 
+                                  <a href="makeup/lipgloss">Lip gloss</a> 
+                                  <a href="makeup/lipbalm">Lip balm</a> 
+                                </div>
+                              </div>
+                              
+                            
+                               
+
+                              
+
+                            </div>
+                          </div>
+
+                          <div class="dropdown1">
+                            <button class="dropbtn1">SKINCARE</button>
+                            <div class="dropdown-content1">
+                              <a href="skincare/makeupremover">Makeup remover</a>
+                              <a href="skincare/moisturizer">Moisturizer</a>
+                              <a href="skincare/eyecream">Eye cream</a>
+                            </div>
+                          </div>
+
+                          <div class="dropdown2">
+                            <button class="dropbtn2">HAIRCARE</button>
+                            <div class="dropdown-content2">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+
+                          
+                          <div class="dropdown3">
+                            <button class="dropbtn3">KITS & SETS</button>
+                            <div class="dropdown-content3">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+
+                          
+                          <div class="dropdown4">
+                            <button class="dropbtn4">BRUSHES & TOOOLS</button>
+                            <div class="dropdown-content4">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-5 col-12 text-center">
+                    <ul class="buttons">
+                        <li class="search-button">
+                            <a href="#search"><i class="fas fa-search"></i></a>
+                            <input class="search" type="text" name="search" placeholder=" search...">         
+
+                            <li><a href="contact.html"><i class="fa-solid fa-phone"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+        
+            </div>
+        </div>
+    </div>-->
+
+
+
+    <div class="pros" id="interests">
+      <div class="container">
+          <div style="text-align: center;"><h1 id="productsh1">Our interests</h1></div>
+          <div id="imagestext" class="imagestext">
+              <div class="image">
+                  <div class="overlay">
+                      <h2>MAKEUP</h2>
+                  </div>
+                  <img src="img/makeup3.jfif">
+              </div>
+              <div class="image">
+                  <div class="overlay">
+                      <h2>SKINCARE</h2>
+                  </div>
+                  <img src="img/skincare2.jfif" id="image3" alt="iamge">
+              </div>
+              <div class="image">
+                  <div class="overlay">
+                      <h2>HAIRCARE</h2>
+                  </div>
+                  <img src="img/haircare3.jfif" id="image4" alt="iamge">
+              </div>
+              <div class="image">
+                  <div class="overlay">
+                      <h2>KITS & SETS</h2>
+                  </div>
+                  <img src="img/kits-sets2.jfif" id="image5" alt="iamge">
+              </div>
+              <div class="image">
+                  <div class="overlay">
+                      <h2>BRUSHES & TOOLS</h2>
+                  </div>
+                  <img src="img/brushes-tools2.jpg" id="image6" alt="iamge">
+              </div>
+          </div>
+
+          <div id="mobileimages" class="mobileimages">
+              <div class="imagemobile">
+                  <img id="mobileimage1" src="img/makeup2.jfif">
+                  <div class="mobileimagesh2">
+                      <h2 id="mobileimagesh2">MAKEUP</h2>
+                  </div>
+              </div>
+
+              <div class="imagemobile">
+                  <img id="mobileimage1" src="img/skincare2.jfif">
+                  <div class="mobileimagesh2">
+                      <h2 id="mobileimagesh2">SKINCARE</h2>
+                  </div>
+              </div>
+
+              <div class="imagemobile">
+                  <img id="mobileimage1" src="img/haircare3.jfif">
+                  <div class="mobileimagesh2">
+                      <h2 id="mobileimagesh2">HAIRCARE</h2>
+                  </div>
+              </div>
+
+              <div class="imagemobile">
+                  <img id="mobileimage1" src="img/kits-sets2.jfif">
+                  <div class="mobileimagesh2">
+                      <h2 id="mobileimagesh2">KITS & SETS</h2>
+                  </div>
+              </div>
+
+              <div class="imagemobile">
+                  <img id="mobileimage1" src="img/brushes-tools2.jpg">
+                  <div class="mobileimagesh2">
+                      <h2 id="mobileimagesh2">BRUSHES & TOOLS</h2>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+  <!-- <div class="wrapper">
+    <img src="img/enhance.jpg.png" alt="">
+    <div class="text-box">
+      <h2>ENHANCE  |  EMBRACE  |  INSPIRE</h2>
+      <p>Soliteer Cosmetics is dedicated to enhancing, embracing and inspiring women.</p>
+    </div>
+  </div> -->
+
+
+  <!-- <title>ENHANCE  |  EMBRACE  |  INSPIRE</title>
+
+
+
+
+  <div class="wrapper">
+    <img src="img/enhance.jpg.png" alt="">
+    <div class="text-box">
+      <h2>ENHANCE  |  EMBRACE  |  INSPIRE</h2>
+      <h4>Soliteer Cosmetics is dedicated enhancing,<br> embracing and inspiring women.</h4>
+    </div>
+    <img id="enimg" src="img/enhance.jpg.png" alt="">
+  </div>
+
+  <div class="wrapper">
+    <img id="enimg1" src="img/enhance.jpg.png" alt="">
+    <div class="text-box1">
+      <h2>ENHANCE  |  EMBRACE  |  INSPIRE</h2>
+      <h4>Our primary objective in introducing Soliteer Cosmetics to the beauty <br> industry is to remind and represents the signiicance <br>of women's self-love, self-care, and self-confidence.
+        <br>Soliteer aspires to help women discover and embrace their unique individuality. 
+        <br>We are showcasing your beauty and empowering you through our collection.</h4>
+    </div>
+
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="eei" style="text-align:center" style="background-color: #f1d6d0;" style="background-color: rgb(255, 132, 152);">
+    <h2>ENHANCE  |  EMBRACE  |  INSPIRE</h2>
+  </div>
+  
+  <!-- The App Section -->
+  <!-- <div class="container2">
+    <div class="row">
+      <div class="column-66"> -->
+
+
+  
+  <!-- Clarity Section -->
+  <div class="container2" style="background-color:  #ebc9c1" style="color: rgb(255, 132, 152);" >
+    <div class="row">
+      <div class="column-33">
+        <img src="img/enhance.jpg.png" alt="App" >
+      </div>
+      <div class="column-66">
+        <h1 class="xlarge-font"><b></b></h1>
+        <h1 class="large-font" style="color:rgb(0, 0, 0);"><b>About Us</b></h1>
+       <span style="font-size:24px">Soliteer Cosmetics is dedicated to enhancing, embracing and inspiring women.</span> 
+       <p>Our primary objective in introducing Soliteer Cosmetics to the beauty industry is to remind and represent the significance of self-love, self-care, and self-confidence.
+          Soliteer aspires to help women discover and embrace their unique individuality. We showcase your beauty and empower you through our collection. </p>
+
+  
+
+      </div>
+    </div>
+  </div>
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
+
+
+
+    <script>
+
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      function filterFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        div = document.getElementById("myDropdown");
+        a = div.getElementsByTagName("a");
+        for (i = 0; i < a.length; i++) {
+          txtValue = a[i].textContent || a[i].innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+          } else {
+            a[i].style.display = "none";
+          }
+        }
+      }
+
+
+      </script>
+</body>
+</head>
+</html>
